@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-DATA_PATH = "/data/raw_data.csv"
+DATA_PATH = "data/raw_data.csv"
 BIN_PATH = "/crmproject/data/bin.csv"
 MEETING_BOOKED_PATH = "/crmproject/data/meeting_booked.csv"
 APPSETTER_PATH = "/crmproject/data/appsetter.csv"
