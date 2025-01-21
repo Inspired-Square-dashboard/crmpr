@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import os
 
-BIN_PATH = "/crmproject/data/bin.csv"
+BIN_PATH = "data/bin.csv"
 
 def load_bin_data():
     if os.path.exists(BIN_PATH):
