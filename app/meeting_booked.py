@@ -3,10 +3,10 @@ import pandas as pd
 import os
 from raw_data import editable_table  # Import the editable_table function
 
-MEETING_BOOKED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/meeting_booked.csv"
-QUALIFIED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/qualified.csv"
-DISQUALIFIED_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/disqualified.csv"
-DEALS_ACTIVE_PATH = "/Users/hassaniftikhar4472/Desktop/crmproject/data/deals_active.csv"
+MEETING_BOOKED_PATH = "data/meeting_booked.csv"
+QUALIFIED_PATH = "data/qualified.csv"
+DISQUALIFIED_PATH = "data/disqualified.csv"
+DEALS_ACTIVE_PATH = "data/deals_active.csv"
 
 def load_meeting_data():
     if os.path.exists(MEETING_BOOKED_PATH):
